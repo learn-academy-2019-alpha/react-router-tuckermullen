@@ -26,7 +26,7 @@ class App extends Component {
             <h2>Recipes</h2>
             <ul>
               {recipes.map((recipe)=>
-                <li>
+                <li key={recipe.id}>
                   <Link to={`/recipe/${recipe.id}`}>
                     {recipe.name}
                   </Link>

@@ -174,7 +174,7 @@ After a careful read of the [React docs on components](https://reactjs.org/docs/
 ```bash
 cat -n src/pages/Recipe.js |sed '7,23!d'
 ```
-```result
+```javascript
 :      7	class Recipe extends Component {
 :      8	  constructor(props){
 :      9	    super(props)
@@ -203,7 +203,7 @@ We've now assigned the ID of our object to state, and we're ready to lookup the 
 ```bash
 cat -n src/pages/Recipe.js
 ```
-```result
+```javascript
 :      1	import React, { Component } from 'react'
 :      2	import ReactDOM from 'react-dom'
 :      3

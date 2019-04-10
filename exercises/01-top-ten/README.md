@@ -13,3 +13,25 @@ The goal of this challenge is to practice creating components that are dynamic t
 ## Stretch
 
 - On a detail page, I can see the restaurant's three most popular menu items
+
+
+### Mock Data
+```Javascript
+[
+  {
+    id: 1,
+    name: 'Wendys',
+    detail: 'A fast food chain created by Dave Thomas'
+  },
+  {
+    id: 2,
+    name: 'Rockin Baja Lobster',
+    detail: 'A Southern California Chain for great Seafood'
+  },
+  {
+    id: 3,
+    name: 'Bubs',
+    detail: 'Best sports bar in San Diego'
+  }
+]
+```
